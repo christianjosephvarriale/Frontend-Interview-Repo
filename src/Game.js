@@ -1,5 +1,14 @@
 import React from 'react'
 
+/**
+ * Calculates whether a win has occured based on Game State
+ * @param {*} squares 
+ */
+function calculateWinner(squares) {
+  return
+}
+
+
 class Game extends React.Component {
     constructor(props) {
       super(props);
@@ -14,7 +23,20 @@ class Game extends React.Component {
       };
     }
 
+    /**
+     * This function allows you to jump to any previous move 
+     * @param {*} squares
+    */
     jumpTo(step) {
+      return
+    }
+
+    /**
+     * What happens when a square is clicked on?
+     * @param {*} i 
+     */
+    handleClick = (i) => {
+      return
     }
 
     render() {

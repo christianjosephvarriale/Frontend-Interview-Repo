@@ -1,5 +1,8 @@
 import React from 'react'
 
+/**
+ * Note this file is already complete, it's mainly used to render the board with styling
+ */
 class Board extends React.Component {
     renderSquare(i) {
       return (
